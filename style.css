@@ -1,0 +1,22 @@
+.grid {
+    width : 500px;
+    height : 500px;
+    background-color : rgb(120, 161, 238);
+    border : solid black 1px;
+    display : flex;
+    flex-wrap : wrap;
+}
+
+.grid div {
+    width : 20px;
+    height : 20px;
+
+}
+
+.snake {
+    background-color: red;
+}
+
+.food {
+    background-color: yellow;
+}
