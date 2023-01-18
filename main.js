@@ -108,8 +108,7 @@ function moveSnake() {
     if (checkEndGame()) {
         return
     }
-    //squares[snake[1]].classList.remove('head')
-    //squares[snake[1]].classList.add('head')
+
     squares[snake[0]].classList.add('snake')
 
     if (squares[snake[0]].classList.contains('food')) {
@@ -162,5 +161,5 @@ interval = setInterval(function() {
         document.getElementById('score').innerText = len
     }
 }
-, 150)
+, 100)
 
